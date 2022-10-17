@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrella's Paradise For Dogs :: Contact</title>
+    <link rel="stylesheet" type="text/css" href="dogs.css">
+    <meta name="description" content="Estrella's Paradise For Dogs, a temporary stay for dogs looking 
+    for a loving family. Ranked #1 dog shelter in the Midwest.">
+</head>
+<body>
+    <header class="content">
+        <a href="index.html"><h1>Estrella's Paradise <br> For Dogs</h1></a>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="adopt.html">Adopt</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>   
+    </nav>
+    <div id="wrapper">
+    <main>
+        <h2>Contact Estrella's Paradise</h2>
+        <p>
+            Please fill out the form below to contact <span class="studio">Estrella's Paradise For Dogs</span>. 
+            Be sure to tell us in the comments section what you're interested in. All information is required.
+        </p>
+
+        <form name="information" method="post" id="information" 
+        action="https://webdevbasics.net/scripts/pacific.php">
+
+            <label for="myName:">Name:</label> 
+            <input type="text" name="Name" id="myName" required>
+
+            <label for="myEmail:">E-mail:</label>
+            <input type="email" name="Email" id="myEmail" required>
+
+            <label for="myRefer">How did you hear about us?</label> 
+            <input type="text" name="Referred By" id="myRefer" list="referral" required> 
+            <datalist id="referral">
+                <option value="Google"></option>
+                <option value="Bing"></option>
+                <option value="Facebook"></option>
+                <option value="Friend/Family"></option>
+                <option value="Radio Ad"></option>
+                <option value="Other"></option>
+            </datalist>
+            
+            <label for="myComments">Comments:</label>
+            <textarea name="Comments" id="myComments" rows="2" cols="20" 
+            required></textarea> 
+
+            <input type="submit" id="mySubmit" value="Send Now">
+            
+        </form>
+        <br><br>   
+    </main> 
+
+    <footer>
+        <div class="icons">
+            <a href="http://Facebook.com"><img class="icons" src="iconImages/icon_FB.png" alt="Facebook"></a>
+            <a href="http://Twitter.com"><img class="icons" src="iconImages/icon_twitter.png" alt="Twitter"></a> 
+            <a href="http://Instagram.com"><img class="icons" src="iconImages/icon_IG.png" alt="Instagram"></a>
+        </div>
+        Copyright @ 2020 Estrella's Paradise For Dogs <br>
+        <a href="mailto:Michael@Aguirre.com">Michael@Aguirre.com</a>
+    </footer>
+    </div>
+</body>
+</html> 
